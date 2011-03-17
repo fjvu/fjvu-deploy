@@ -41,6 +41,6 @@ projects[xmlsitemap][subdir] = "contrib"
 
 ;libraries
 libraries[fckeditor][download][type] = "get"
-libraries[fckeditor][download][url] = "http://sourceforge.net/projects/fckeditor/ffiles/FCKeditor/2.6.4/FCKeditor_2.6.4.zip/download"
+libraries[fckeditor][download][url] = "http://sourceforge.net/projects/fckeditor/files/FCKeditor/2.6.4/FCKeditor_2.6.4.tar.gz/download"
 libraries[fckeditor][directory_name] = "fckeditor"
-libraries[fckeditor][destination] = "libraries
+libraries[fckeditor][destination] = "libraries"
