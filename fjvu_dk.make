@@ -39,3 +39,9 @@ projects[views][subdir] = "contrib"
 projects[votingapi][subdir] = "contrib"
 projects[webfm][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
+
+;libraries
+libraries[fckeditor][download][type] = "get"
+libraries[fckeditor][download][url] = "http://sourceforge.net/projects/fckeditor/ffiles/FCKeditor/2.6.4/FCKeditor_2.6.4.zip/download"
+libraries[fckeditor][directory_name] = "fckeditor"
+libraries[fckeditor][destination] = "libraries
