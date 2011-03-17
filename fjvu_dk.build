@@ -1,0 +1,10 @@
+; drush make API version
+api = 2
+
+core = 6.x
+projects[drupal][type] = core
+
+projects[fjvu_dk][type] = "profile"
+projects[fjvu_dk][download][type] = "git"
+projects[fjvu_dk][download][url] = "git://github.com/fjvu/fjvu-deploy.git"
+projects[fjvu_dk][download][branch] = "master"

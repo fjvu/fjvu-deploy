@@ -1,0 +1,5 @@
+name = fjvu.dk
+description = Install profile for fjvu.dk
+version = 0.1.0
+core = 6.x
+
