@@ -134,8 +134,8 @@ function fjvu_dk_profile_tasks(&$task, $url) {
   // Don't display date and author information for page nodes by fjvu_dk.
   $theme_settings = variable_get('theme_settings', array());
   $theme_settings['toggle_node_info_page'] = FALSE;
+  variable_set('theme_default', 'fjernvarme');
   variable_set('theme_settings', $theme_settings);
-
   // Update the menu router information.
   menu_rebuild();
 }
