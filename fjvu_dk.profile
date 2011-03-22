@@ -8,11 +8,17 @@
 function fjvu_dk_profile_modules() {
   return array(
     // core modules
+<<<<<<< HEAD
     'block', 'color', 'comment', 'contact', 'dblog', 'filter', 'forum', 'help', 'locale', 'menu', 'node', 'path', 'search', 'statistics', 'system', 'taxonomy', 'throttle', 'tracker', 'update_status', 'upload', 'user',
     // contrib
     'acl', 'addthis', 'admin_menu', 'advanced_help', 'antispam', 'autoload', 'calendar', 'content', 'ctools', 'comment_notify', 'delegator', 'devel', 'emfield', 'fbconnect',
     'fckeditor', 'filefield', 'fieldgroup', 'fivestar', 'flag', 'forum_access', 'google_analytics', 'global_redirect', 'imageapi', 'imagecache', 'imagefield', 'imce', 'mass_contact', 'metatags', 'mimedetect', 'nodereference', 'number', 'panels', 'pathauto', 'path_redirect',
     'quiz', 'scheduler', 'search404', 'signup', 'similarterms', 'table_wizard', 'tagadelic', 'text', 'token', 'transliteration', 'user_import', 'webfm', 'views', 'xmlsitemap'
+=======
+    'block', 'color', 'comment', 'contact', 'dblog', 'filter', 'help', 'locale', 'menu', 'node', 'path', 'search', 'statistics', 'system', 'taxonomy', 'throttle', 'tracker', 'update', 'upload', 'user',
+    // contrib
+    'admin_menu', 'advanced_help', 'calendar', 'calendar_ical', 'content', 'content_taxonomy', 'content_taxonomy_autocomplete', 'ctools', 'comment_notify', 'date', 'date_locale', 'date_popup', 'date_repeat', 'date_tools', 'emfield', 'fckeditor', 'filefield', 'fieldgroup', 'fivestar', 'flag', 'flag_actions', 'globalredirect', 'googleanalytics', 'imageapi', 'imageapi_gd', 'imagefield', 'imce', 'jquery_ui', 'mass_contact', 'nodereference', 'nodewords', 'nodewords_nodetype', 'number', 'pathauto', 'path_redirect', 'scheduler', 'signup', 'similarterms', 'text', 'token', 'transliteration', 'webfm', 'webfm_image', 'webfm_popup', 'views', 'views_ui', 'xmlsitemap'
+>>>>>>> 336e6dcc6f2f45a78d9f43d428522c8ae69e77a9
   );
 }
 
@@ -136,8 +142,8 @@ function fjvu_dk_profile_tasks(&$task, $url) {
   // Don't display date and author information for page nodes by fjvu_dk.
   $theme_settings = variable_get('theme_settings', array());
   $theme_settings['toggle_node_info_page'] = FALSE;
+  variable_set('theme_default', 'fjernvarme');
   variable_set('theme_settings', $theme_settings);
-
   // Update the menu router information.
   menu_rebuild();
 }
