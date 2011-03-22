@@ -44,6 +44,11 @@ projects[votingapi][subdir] = "contrib"
 projects[webfm][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
+;themes
+projects[fjernvarme][type] = "theme"
+projects[fjernvarme][download][type] = "git"
+projects[fjernvarme][download][url] = "git://github.com/fjvu/fjernvarme-theme.git"
+
 ;libraries
 libraries[fckeditor][download][type] = "get"
 libraries[fckeditor][download][url] = "http://sourceforge.net/projects/fckeditor/files/FCKeditor/2.6.6/FCKeditor_2.6.6.tar.gz/download"
