@@ -2,7 +2,7 @@ api = 2
 core = 6.x
 
 ;contrib
-projects[admin_menu][subdir] = "contrib"
+projects[admin][subdir] = "contrib"
 projects[advanced_help][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
 projects[calendar][subdir] = "contrib"
@@ -15,7 +15,6 @@ projects[emfield][subdir] = "contrib"
 projects[fckeditor][subdir] = "contrib"
 projects[features][subdir] = "contrib"
 projects[filefield][subdir] = "contrib"
-projects[fivestar][subdir] = "contrib"
 projects[flag][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 projects[google_analytics][subdir] = "contrib"
@@ -39,7 +38,6 @@ projects[strongarm][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[transliteration][subdir] = "contrib"
 projects[views][subdir] = "contrib"
-projects[votingapi][subdir] = "contrib"
 projects[webfm][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
