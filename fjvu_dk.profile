@@ -6,7 +6,14 @@
  *   An array of modules to enable.
  */
 function fjvu_dk_profile_modules() {
-  return array();
+  return array(
+    // core modules
+    'block', 'color', 'comment', 'contact', 'dblog', 'filter', 'forum', 'help', 'locale', 'menu', 'node', 'path', 'search', 'statistics', 'system', 'taxonomy', 'throttle', 'tracker', 'update_status', 'upload', 'user',
+    // contrib
+    'acl', 'addthis', 'admin_menu', 'advanced_help', 'antispam', 'autoload', 'calendar', 'content', 'ctools', 'comment_notify', 'delegator', 'devel', 'emfield', 'fbconnect',
+    'fckeditor', 'filefield', 'fieldgroup', 'fivestar', 'flag', 'forum_access', 'google_analytics', 'global_redirect', 'imageapi', 'imagecache', 'imagefield', 'imce', 'mass_contact', 'metatags', 'mimedetect', 'nodereference', 'number', 'panels', 'pathauto', 'path_redirect',
+    'quiz', 'scheduler', 'search404', 'signup', 'similarterms', 'table_wizard', 'tagadelic', 'text', 'token', 'transliteration', 'user_import', 'webfm', 'views', 'xmlsitemap'
+  );
 }
 
 /**
