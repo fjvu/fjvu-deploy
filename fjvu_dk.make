@@ -2,7 +2,7 @@ api = 2
 core = 6.x
 
 ;contrib
-projects[admin][subdir] = "contrib"
+projects[admin_menu][subdir] = "contrib"
 projects[advanced_help][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
 projects[calendar][subdir] = "contrib"
