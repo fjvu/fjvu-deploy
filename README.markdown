@@ -39,7 +39,17 @@ If you want to force a rebuild of everything (this will install a clean database
 
     drush si fjvu_dk
 
-More information
-----------------
+Installing new modules
+----------------------
 
-See more on [Drupal deployments & workflows with version control, drush_make, and Aegir](http://www.migueljacq.com/content/drupal-deployments-workflows-version-control-drushmake-and-aegir)
+Before changing the current install, allways set the site in maintenance mode.
+
+###Upgrade current modules###
+
+The current modules are all installed in profiles/fjvu_dk/modules. If you want to upgrade a module, you can just overwrite the currently installed modules. After overwriting, make sure you login as user 1 and go to [upgrade.php](http://fjvu.dk/upgrade.php) to make sure that everything is updated in the database.
+
+###Install new modules###
+
+If you want to install new modules, please put them in _sites/all/modules_. That way it is easy to spot which modules has not been put into version control yet.
+
+Make sure to keep away from all other folders than _sites_. Please :)
