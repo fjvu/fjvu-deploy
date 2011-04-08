@@ -46,7 +46,7 @@ Before changing the current install, allways set the site in maintenance mode.
 
 ###Upgrade current modules###
 
-The current modules are all installed in profiles/fjvu_dk/modules. If you want to upgrade a module, you can just overwrite the currently installed modules. After overwriting, make sure you login as user 1 and go to [upgrade.php](http://fjvu.dk/upgrade.php) to make sure that everything is updated in the database.
+The current modules are all installed in _profiles/fjvu_dk/modules_. If you want to upgrade a module, you can just overwrite the currently installed modules. After overwriting, make sure you login as user 1 and go to [upgrade.php](http://fjvu.dk/upgrade.php) to make sure that everything is updated in the database.
 
 ###Install new modules###
 
