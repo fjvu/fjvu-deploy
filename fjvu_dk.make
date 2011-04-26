@@ -42,11 +42,6 @@ projects[webfm][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
 ;themes
-projects[tao][subdir] = "contrib"
-projects[tao][type] = "theme"
-projects[rubik][subdir] = "contrib"
-projects[rubik][type] = "theme"
-
 projects[fjernvarme][type] = "theme"
 projects[fjernvarme][download][type] = "git"
 projects[fjernvarme][download][url] = "git://github.com/fjvu/fjernvarme-theme.git"
