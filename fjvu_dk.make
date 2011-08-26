@@ -38,7 +38,6 @@ projects[token][subdir] = "contrib"
 projects[transliteration][subdir] = "contrib"
 projects[vertical_tabs][subdir] = "contrib"
 projects[views][subdir] = "contrib"
-projects[webfm][subdir] = "contrib"
 projects[xmlsitemap][subdir] = "contrib"
 
 ;themes

@@ -10,7 +10,7 @@ function fjvu_dk_profile_modules() {
     // core modules
     'block', 'color', 'comment', 'dblog', 'filter', 'locale', 'menu', 'node', 'path', 'search', 'system', 'taxonomy', 'update', 'upload', 'user',
     // contrib
-    'admin_menu', 'calendar', 'calendar_ical', 'content', 'content_taxonomy', 'content_taxonomy_autocomplete', 'contextual', 'ctools', 'comment_notify', 'date', 'date_locale', 'date_popup', 'date_repeat', 'date_tools', 'emfield', 'fckeditor', 'filefield', 'fieldgroup', 'flag', 'flag_actions', 'globalredirect', 'googleanalytics', 'imageapi', 'imageapi_gd', 'imagefield', 'imce', 'isbn', 'jquery_ui', 'nodereference', 'nodewords', 'nodewords_nodetype', 'number', 'pathauto', 'path_redirect', 'scheduler', 'signup', 'similarterms', 'text', 'token', 'transliteration', 'vertical_tabs', 'webfm', 'webfm_image', 'webfm_popup', 'views', 'views_ui', 'xmlsitemap'
+    'admin_menu', 'calendar', 'calendar_ical', 'content', 'content_taxonomy', 'content_taxonomy_autocomplete', 'contextual', 'ctools', 'comment_notify', 'date', 'date_locale', 'date_popup', 'date_repeat', 'date_tools', 'emfield', 'fckeditor', 'filefield', 'fieldgroup', 'flag', 'flag_actions', 'globalredirect', 'googleanalytics', 'imageapi', 'imageapi_gd', 'imagefield', 'imce', 'isbn', 'jquery_ui', 'nodereference', 'nodewords', 'nodewords_nodetype', 'number', 'pathauto', 'path_redirect', 'scheduler', 'signup', 'similarterms', 'text', 'token', 'transliteration', 'vertical_tabs', 'views', 'views_ui', 'xmlsitemap'
   );
 }
 
