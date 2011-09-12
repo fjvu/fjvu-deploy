@@ -1,55 +1,94 @@
 api = 2
-core = 6.x
+core = 7.x
 
-;contrib
-projects[admin_menu][subdir] = "contrib"
-projects[advanced_help][subdir] = "contrib"
-projects[backup_migrate][subdir] = "contrib"
-projects[calendar][subdir] = "contrib"
-projects[cck][subdir] = "contrib"
-projects[comment_notify][subdir] = "contrib"
-projects[content_taxonomy][subdir] = "contrib"
-projects[contextual][subdir] = "contrib"
-projects[ctools][subdir] = "contrib"
-projects[date][subdir] = "contrib"
-projects[emfield][subdir] = "contrib"
-projects[fckeditor][subdir] = "contrib"
-projects[features][subdir] = "contrib"
-projects[filefield][subdir] = "contrib"
-projects[flag][subdir] = "contrib"
-projects[globalredirect][subdir] = "contrib"
-projects[google_analytics][subdir] = "contrib"
-projects[i18n][subdir] = "contrib"
-projects[imageapi][subdir] = "contrib"
-projects[imagecache][subdir] = "contrib"
-projects[imagefield][subdir] = "contrib"
-projects[imce][subdir] = "contrib"
-projects[isbn][subdir] = "contrib"
-projects[jquery_ui][subdir] = "contrib"
-projects[nodewords][subdir] = "contrib"
-projects[nodewords_nodetype][subdir] = "contrib"
-projects[pathauto][subdir] = "contrib"
-projects[path_redirect][subdir] = "contrib"
-projects[scheduler][subdir] = "contrib"
-projects[signup][subdir] = "contrib"
-projects[similarterms][subdir] = "contrib"
-projects[strongarm][subdir] = "contrib"
-projects[token][subdir] = "contrib"
-projects[transliteration][subdir] = "contrib"
-projects[vertical_tabs][subdir] = "contrib"
-projects[views][subdir] = "contrib"
-projects[xmlsitemap][subdir] = "contrib"
+projects[cck][subdir] = contrib
+projects[cck][version] = 2.x-dev
 
-;themes
-projects[fjernvarme][type] = "theme"
-projects[fjernvarme][download][type] = "git"
-projects[fjernvarme][download][url] = "git://github.com/fjvu/fjernvarme-theme.git"
+projects[context][subdir] = contrib
 
-;libraries
-libraries[fckeditor][download][type] = "get"
-libraries[fckeditor][download][url] = "http://sourceforge.net/projects/fckeditor/files/FCKeditor/2.6.6/FCKeditor_2.6.6.tar.gz/download"
-libraries[fckeditor][directory_name] = "fckeditor"
-libraries[fckeditor][destination] = "libraries"
+projects[ctools][subdir] = contrib
+
+projects[date][subdir] = contrib
+
+projects[danishstemmer][subdir] = contrib
+
+projects[devel][subdir] = contrib
+
+projects[email][subdir] = contrib
+
+projects[entity][subdir] = contrib
+
+projects[feeds][subdir] = contrib
+
+projects[features][subdir] = contrib
+
+projects[field_group][subdir] = contrib
+
+projects[filter_perms][subdir] = contrib
+projects[filter_perms][version] = 1.x-dev
+
+projects[google_analytics][subdir] = contrib 
+
+projects[l10n_update][subdir] = contrib 
+
+projects[job_scheduler][subdir] = contrib
+projects[job_scheduler][version] = 2.0-alpha2
+
+projects[libraries][subdir] = contrib
+
+projects[logintoboggan][subdir] = contri
+
+projects[mailchimp][subdir] = contrib
+
+projects[media][subdir] = contrib
+projects[media][version] = 2.0-unstable1
+
+projects[media_youtube][subdir] = contrib
+
+projects[menu_block][subdir] = contrib
+
+projects[module_filter][subdir] = contrib
+
+projects[mollom][subdir] = contrib
+
+projects[panels][subdir] = contrib
+
+projects[pathauto][subdir] = contrib
+
+projects[pdf_reader][subdir] = contrib
+
+projects[views][subdir] = contrib
+
+projects[views_bulk_operations][subdir] = contrib
+
+projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = 3.0-alpha1
+
+projects[wysiwyg][subdir] = contrib
+
+projects[references][subdir] = contrib
+
+projects[strongarm][subdir] = contrib
+
+projects[styles][subdir] = contrib
+
+projects[token][subdir] = contrib
+
+projects[transliteration][subdir] = contrib
+
+projects[xmlsitemap][subdir] = contrib	
+
+; Libraries
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
+
+; Libraries
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][destination] = "libraries"
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"

@@ -1,5 +1,63 @@
 name = fjvu.dk
 description = Install profile for fjvu.dk
-version = 0.1.0
-core = 6.x
+version = 1.0
+core = 7.x
+
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = taxonomy
+dependencies[] = toolbar
+
+; contrib
+dependencies[] = cck
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = googleanalytics
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = feeds_ui
+dependencies[] = file_styles
+dependencies[] = filter_perms
+dependencies[] = l10n_update
+dependencies[] = libraries
+dependencies[] = logintoboggan
+dependencies[] = menu_block
+dependencies[] = mailchimp
+dependencies[] = mailchimp_lists
+dependencies[] = media
+dependencies[] = media_youtube
+dependencies[] = module_filter
+dependencies[] = mollom
+dependencies[] = panels
+dependencies[] = pathauto
+dependencies[] = pdf_reader
+dependencies[] = references
+dependencies[] = strongarm
+dependencies[] = styles
+dependencies[] = styles_ui
+dependencies[] = references
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = views_bulk_operations
+dependencies[] = views_slideshow
+dependencies[] = wysiwyg
+dependencies[] = xmlsitemap
+
+files[] = vih_elevforening.profile
 
