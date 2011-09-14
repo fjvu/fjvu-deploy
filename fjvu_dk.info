@@ -24,6 +24,7 @@ dependencies[] = toolbar
 
 ; contrib
 dependencies[] = cck
+dependencies[] = ckeditor_link
 dependencies[] = ctools
 dependencies[] = entity
 dependencies[] = googleanalytics

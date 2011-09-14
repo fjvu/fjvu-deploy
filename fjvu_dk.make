@@ -4,6 +4,8 @@ core = 7.x
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.x-dev
 
+projects[ckeditor_link][subdir] = contrib
+
 projects[context][subdir] = contrib
 
 projects[ctools][subdir] = contrib
