@@ -50,6 +50,7 @@ dependencies[] = references
 dependencies[] = strongarm
 dependencies[] = styles
 dependencies[] = styles_ui
+dependencies[] = redirect
 dependencies[] = references
 dependencies[] = token
 dependencies[] = transliteration
