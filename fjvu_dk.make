@@ -11,40 +11,43 @@ projects[content_access][subdir] = contrib
 projects[content_access][version] = 1.2-beta1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-rc1
+projects[ctools][version] = 1.2
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.0-rc1
+projects[date][version] = 2.6
 
 projects[danishstemmer][subdir] = contrib
 projects[danishstemmer][version] = 1.1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc1
+projects[entity][version] = 1.0-rc3
+
+projects[entityreference][subdir] = contrib
+projects[entityreference][version] = 1.x-dev
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-beta6
+projects[features][version] = 1.0
 
 projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-unstable3
+projects[file_entity][version] = 2.0-unstable6
 
-projects[file_redirection][subdir] = contrib
-projects[file_redirection][version] = 2.3
+projects[field_redirection][subdir] = contrib
+projects[field_redirection][version] = 2.4
 
 projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.0
+projects[fontyourface][version] = 2.5
 
 projects[globalredirect][subdir] = contrib 
-projects[globalredirect][version] = 1.3 
+projects[globalredirect][version] = 1.5
 
 projects[google_analytics][subdir] = contrib 
 projects[google_analytics][version] = 1.2 
 
 projects[l10n_update][subdir] = contrib 
-projects[l10n_update][version] = 1.0-beta2 
+projects[l10n_update][version] = 1.0-beta3
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 1.3
@@ -53,34 +56,35 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-unstable3
+projects[media][version] = 2.0-unstable6
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-alpha5
+projects[media_youtube][version] = 1.0-beta3
 
 projects[menu_block][subdir] = contrib
-projects[menu_block][version] = 2.2
+projects[menu_block][version] = 2.3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-alpha4
+projects[metatag][version] = 1.0-alpha8
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 1.1
 
 projects[panels][subdir] = contrib
-projects[panels][version] = 3.0
+projects[panels][version] = 3.3
 
 projects[panels_everywhere][subdir] = contrib
-projects[panels_everywhere][version] = 1.0-alpha1
+projects[panels_everywhere][version] = 1.0-rc1
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.0
+projects[pathauto][version] = 1.2
 
 projects[pdf_reader][subdir] = contrib
-projects[pdf_reader][version] = 1.0-beta3
+projects[pdf_reader][version] = 1.0-rc4
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-beta3
+projects[redirect][version] = 1.0-rc1
+projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.0
@@ -89,22 +93,30 @@ projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta2
+projects[strongarm][version] = 2.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.0-beta7
+projects[token][version] = 1.4
 
 projects[transliteration][subdir] = contrib
-projects[transliteration][version] = 3.0
+projects[transliteration][version] = 3.1
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.1
+projects[views][version] = 3.5
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0-alpha1
 
 projects[wysiwyg][subdir] = contrib	
-projects[wysiwyg][version] = 2.1	
+projects[wysiwyg][version] = 2.2
+
+;;;;;;;;;;;
+; Custom modules
+;;;;;;;;;;;
+
+projects[fjvu][download][type] = "git"
+projects[fjvu][download][url] = "git://github.com/fjvu/fjvu-modules.git"
+projects[fjvu][download][branch] = "7.x-1.x"
 
 ;;;;;;;;;;;
 ; Themes
@@ -113,6 +125,7 @@ projects[wysiwyg][version] = 2.1
 projects[fjernvarme][type] = "theme"
 projects[fjernvarme][download][type] = "git"
 projects[fjernvarme][download][url] = "git://github.com/fjvu/fjernvarme-theme.git"
+projects[fjernvarme][download][branch] = "7.x-1.x"
 
 projects[precision][type] = "theme"
 
@@ -121,7 +134,7 @@ projects[precision][type] = "theme"
 ;;;;;;;;;;;
 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
