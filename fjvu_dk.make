@@ -102,7 +102,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 3.0-alpha1
+projects[views_slideshow][version] = 3.0
 
 projects[wysiwyg][subdir] = contrib	
 projects[wysiwyg][version] = 2.2
