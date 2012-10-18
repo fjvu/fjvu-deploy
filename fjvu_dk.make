@@ -1,6 +1,12 @@
 core = 7.x
 api = 2
 
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.4
+
+projects[ckeditor_link][subdir] = contrib
+projects[ckeditor_link][version] = 2.2
+
 projects[ckeditor_link][subdir] = contrib
 projects[ckeditor_link][version] = 2.2
 
