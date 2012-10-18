@@ -41,7 +41,7 @@ projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 1.3
+projects[libraries][version] = 2.0
 
 projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
