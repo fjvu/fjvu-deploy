@@ -1,4 +1,4 @@
-[fjvu.dk](http://fjvu.dk)
+[fjvu.dk](http://fjvu.dk) [![Build Status](https://secure.travis-ci.org/fjvu/fjvu-deploy.png)](http://travis-ci.org/fjvu/fjvu-deploy)
 ==
 
 Installation profile for fjvu.dk.
