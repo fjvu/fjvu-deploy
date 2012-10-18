@@ -111,6 +111,8 @@ projects[wysiwyg][version] = 2.2
 ; Custom modules
 ;;;;;;;;;;;
 
+
+projects[fjvu][type] = "module"
 projects[fjvu][download][type] = "git"
 projects[fjvu][download][url] = "git://github.com/fjvu/fjvu-modules.git"
 projects[fjvu][download][branch] = "7.x-1.x"
