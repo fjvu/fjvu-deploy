@@ -1,9 +1,6 @@
 core = 7.x
 api = 2
 
-projects[cck][subdir] = contrib
-projects[cck][version] = 2.x-dev
-
 projects[ckeditor_link][subdir] = contrib
 projects[ckeditor_link][version] = 2.2
 

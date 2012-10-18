@@ -23,7 +23,6 @@ dependencies[] = taxonomy
 dependencies[] = toolbar
 
 ; contrib
-dependencies[] = cck
 dependencies[] = ckeditor_link
 dependencies[] = ctools
 dependencies[] = danishstemmer
