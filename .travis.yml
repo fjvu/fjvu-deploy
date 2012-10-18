@@ -20,7 +20,7 @@ before_script:
   - drush make fjvu_dk.build ../fjvu.dk
   - cd ../fjvu.dk
   - sudo chmod -R 777 sites/all/modules
-  - drush si vih_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="fjvu.dk" --yes
+  - drush si fjvu_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="fjvu.dk" --yes
   - drush cc all --yes
   - cd ../fjvu.dk-deploy
 
