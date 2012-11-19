@@ -35,7 +35,7 @@ projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable6
 
 projects[field_redirection][subdir] = contrib
-projects[field_redirection][version] = 2.4
+projects[field_redirection][version] = 2.5
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.5
