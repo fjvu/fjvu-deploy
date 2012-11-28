@@ -111,11 +111,23 @@ projects[wysiwyg][version] = 2.2
 ; Custom modules
 ;;;;;;;;;;;
 
+projects[fjvu_stories][type] = "module"
+projects[fjvu_stories][subdir] = "fjvu"
+projects[fjvu_stories][download][type] = "git"
+projects[fjvu_stories][download][url] = "git://github.com/fjvu/fjvu_stories.git"
+projects[fjvu_stories][download][branch] = "7.x-1.x"
 
-projects[fjvu][type] = "module"
-projects[fjvu][download][type] = "git"
-projects[fjvu][download][url] = "git://github.com/fjvu/fjvu-modules.git"
-projects[fjvu][download][branch] = "7.x-1.x"
+projects[fjvu_documents][type] = "module"
+projects[fjvu_documents][subdir] = "fjvu"
+projects[fjvu_documents][download][type] = "git"
+projects[fjvu_documents][download][url] = "git://github.com/fjvu/fjvu_documents.git"
+projects[fjvu_documents][download][branch] = "7.x-1.x"
+
+projects[fjvu_frontpage_slides][type] = "module"
+projects[fjvu_frontpage_slides][subdir] = "fjvu"
+projects[fjvu_frontpage_slides][download][type] = "git"
+projects[fjvu_frontpage_slides][download][url] = "git://github.com/fjvu/fjvu_frontpage_slides.git"
+projects[fjvu_frontpage_slides][download][branch] = "7.x-1.x"
 
 ;;;;;;;;;;;
 ; Themes
